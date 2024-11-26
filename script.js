@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:3000"; // Replace with your backend URL
+const apiUrl = "https://diyadadheech.github.io/backend/"; // Replace with your backend URL
 
 // Fetch and display products
 async function fetchProducts() {
