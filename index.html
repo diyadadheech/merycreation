@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Order Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Order Management System</h1>
+    </header>
+    <main>
+        <section id="product-list">
+            <h2>Products</h2>
+            <ul id="products"></ul>
+        </section>
+        <section id="order-form">
+            <h2>Place Order</h2>
+            <form id="order">
+                <label for="product">Product:</label>
+                <select id="product" name="product" required></select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <button type="submit">Place Order</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
