@@ -1,4 +1,4 @@
-const apiUrl = "https://diyadadheech.github.io/backend/"; // Replace with your backend URL
+const apiUrl = "https://backend-7jt8.onrender.com"; // Replace with your backend URL
 
 // Fetch and display products
 async function fetchProducts() {
